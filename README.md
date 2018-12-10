@@ -47,7 +47,8 @@ char *access_points[][2] = {
 ## Enclosure and Assembly
 This enclosure was printed in PLA. Use at least 50% infill, if you have the time 100% is better. 
   * After printing hand tap then secure the Feather tripler board using 2.5mm nylon screws
-  * Install the Feather, RTC and LED wings
+  * Solder the Feather, RTC, LED and Relay wings (don't forget to solder the pad to jump pin 11 as the control for the relay)
+  * Install the Feather, RTC and LED wings then use the checkout sketches to verify proper operation
   * Complete the AC wiring then mount the relay wing
 
 ![alt text](images/ScreenShot006.jpg "Enclosure bottom")
