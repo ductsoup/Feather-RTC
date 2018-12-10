@@ -9,7 +9,7 @@ Please be careful if you're building or modifying this design because it uses AC
 ![alt text](images/IMG_3923.JPG "Final build")
 
 ## Design
-The only real challenge here is how to power the AVR, switch AC line voltages for the horn then fit all that into a compact enclosure that's durable enough for the shop floor. The smart phone charger cubes turned out to be the simplest way to do that.
+The only real challenge here is how to power the AVR, switch AC line voltages for the horn then fit all that into a compact enclosure that's durable enough for the shop floor. The smart phone charger cubes are a good way to accomplish that.
 
 It turns out there are many good libraries for managing daylight savings on the AVR platform, in practice they're not entirely compatible. Here I've chosen to use WiFi101 and rewrite that little piece so it works reliably.
 
