@@ -1,12 +1,16 @@
 # Feather-RTC
 ## Overview
+We use time clocks and horns on the shop floor to signal shift changes and breaks. The problem with electro-mechanical clocks is they break after a while, are expensive, and also need to be manually reset every time there's a power failure or a time change. 
+
+This design is a fraction of the cost and also doesn't need to be manually reset. If WiFi is available it will sync to NTP. If not, the RTC will keep accurate time for years between power failures. In either case it also adjusts automatically to daylight saving time.
+
 ![alt text](images/IMG_3923.JPG "Final build")
 
 ## Parts List
   * [Adafruit Feather M0 WiFi - ATSAMD21 + ATWINC1500](https://www.adafruit.com/product/3010)
   * [Adafruit 4-Digit 7-Segment LED Matrix Display FeatherWing](https://www.adafruit.com/product/3088)
   * [Adafruit DS3231 Precision RTC FeatherWing - RTC Add-on For Feather Boards](https://www.adafruit.com/product/3028)
-  * [Adafruit Stacking Headers](https://www.adafruit.com/product/2830)
+  * [Adafruit Stacking Headers](https://www.adafruit.com/product/2830) (for the RTC only)
   * [Adafruit Power Relay FeatherWing](https://www.adafruit.com/product/3191)
   * [Adafruit FeatherWing Tripler Mini Kit - Prototyping Add-on For Feathers](https://www.adafruit.com/product/3417)
   * [USB cable - 6" A/MicroB](https://www.adafruit.com/product/898)
