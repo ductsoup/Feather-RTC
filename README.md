@@ -1,4 +1,4 @@
-# Feather-RTC
+# Feather RTC Time Clock
 ## Overview
 We use time clocks and horns on the shop floor to signal shift changes and breaks. The problem with electro-mechanical clocks is they break after a while, are expensive, and also need to be manually reset every time there's a power failure or a time change. I've yet to see an electro-mechanical horn fail.
 
