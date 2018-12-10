@@ -1,8 +1,10 @@
 # Feather-RTC
 ## Overview
-We use time clocks and horns on the shop floor to signal shift changes and breaks. The problem with electro-mechanical clocks is they break after a while, are expensive, and also need to be manually reset every time there's a power failure or a time change. 
+We use time clocks and horns on the shop floor to signal shift changes and breaks. The problem with electro-mechanical clocks is they break after a while, are expensive, and also need to be manually reset every time there's a power failure or a time change. I've yet to see an electro-mechanical horn fail.
 
 This design is a fraction of the cost and doesn't need to be manually reset. If WiFi is available it will sync to NTP. If not, the RTC will keep accurate time for years between power failures. It also adjusts automatically between standard and daylight saving time.
+
+Please be careful if you're building or modifying this design because it uses AC line voltage.
 
 ![alt text](images/IMG_3923.JPG "Final build")
 
