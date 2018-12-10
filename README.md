@@ -27,7 +27,6 @@ char *access_points[][2] = {
   {"myssid2", "mypassword2"}
 };
 ```
-
 ## Parts List
   * [Adafruit Feather M0 WiFi - ATSAMD21 + ATWINC1500](https://www.adafruit.com/product/3010)
   * [Adafruit 4-Digit 7-Segment LED Matrix Display FeatherWing](https://www.adafruit.com/product/3088)
@@ -46,10 +45,14 @@ char *access_points[][2] = {
     
 ## Enclosure and Assembly
 This enclosure was printed in PLA. Use at least 50% infill, if you have the time 100% is better. 
+
+![alt text](images/ScreenShot006.jpg "Enclosure bottom")
+![alt text](images/ScreenShot001.jpg "Enclosure top")
+
   * After printing hand tap then secure the Feather tripler board using 2.5mm nylon screws
   * Solder the Feather, RTC, LED and Relay wings (don't forget to solder the pad to jump pin 11 as the control for the relay)
   * Install the Feather, RTC and LED wings then use the checkout sketches to verify proper operation
   * Complete the AC wiring then mount the relay wing
 
-![alt text](images/ScreenShot006.jpg "Enclosure bottom")
-![alt text](images/ScreenShot001.jpg "Enclosure top")
+The AC line voltage wiring should look something like this.
+![alt text](images/IMG_3930.JPG "AC Schematic")
